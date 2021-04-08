@@ -1,3 +1,3 @@
-# Maple Re-write
+# Maple Rose
 
-IF6's Discord bot "Paimon" re-written in discord-rose
+IF6's Discord bot "Maple" re-written in discord-rose

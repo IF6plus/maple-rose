@@ -1,0 +1,23 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": [
+        "./src/socket/cache/*"
+      ],
+      "rules": {
+        "@typescript-eslint/consistent-type-assertions": "off"
+      }
+    }
+  ],
+  "rules": {
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "@typescript-eslint/no-for-in-array": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-dynamic-delete": "off",
+    "no-void": "off"
+  }
+}

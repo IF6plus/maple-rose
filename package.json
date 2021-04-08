@@ -1,0 +1,33 @@
+{
+  "name": "terano-rose",
+  "version": "0.0.1",
+  "description": "bot written with discord-rose",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "cd src/ && nodemom",
+    "start": "cd src/ && node"
+  },
+  "keywords": [
+    "discord-rose"
+  ],
+  "author": "MILLION",
+  "license": "MIT",
+  "dependencies": {
+    "@discord-rose/flags-middleware": "^1.0.2",
+    "@jpbberry/cache": "^1.0.4",
+    "discord-rose": "^1.2.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.10.4",
+    "@types/node": "^14.14.22",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "discord-api-types": "^0.13.3",
+    "eslint": "^7.22.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "typescript": "^4.2.3"
+  }
+}

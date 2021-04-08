@@ -1,3 +1,3 @@
-# example-rose
+# Paimon Re-write
 
-A decent bot written in [discord-rose](https://github.com/discord-rose/discord-rose)
+IF6's Discord bot "Paimon" re-written in discord-rose

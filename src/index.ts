@@ -5,7 +5,7 @@ import config from './config.json'
 import { Master } from 'discord-rose'
 import path from 'path'
 
-const master = new Master(path.resolve(__dirname, './bot/worker.js'), {
+const master = new Master(path.resolve(__dirname, './bot/index.js'), {
   token: config.DISCORD_TOKEN,
   shards: 'auto',
   intents: 32767,

@@ -1,3 +1,3 @@
-# Maple Rose
+# Kirby Music Rewrite
 
-IF6's Discord bot "Maple" re-written in discord-rose
+yes.
